@@ -1,0 +1,20 @@
+# Not needed to run the app
+.git
+.gitattributes
+.gitignore
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Development and training files
+scratch/
+data/
+*.ipynb
+test_suite.py
+test_end_to_end.py
+train_and_export.py
+README.md
+
+# Duplicate model copies in the project root (the app uses models/)
+/*.joblib
